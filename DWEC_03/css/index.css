@@ -1,0 +1,29 @@
+
+/*Estilos del formulario*/
+
+body{
+    text-align: center;
+}
+
+form{
+    margin-top:20px;
+    font-size: 16px;
+}
+
+form input{
+    margin: 10px;
+}
+
+form input{
+    width:200px;
+    background-color: white;
+}
+
+/*Estilo del div creado al fallar el usuario o contraseña*/
+
+#noRegistrado {
+    background-color: #ff6c64;
+    width:200px;
+    height:25px;
+    margin: auto;
+}

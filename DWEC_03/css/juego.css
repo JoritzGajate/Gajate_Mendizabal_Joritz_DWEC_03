@@ -1,0 +1,86 @@
+
+/*Estilo de la parte para elegir color*/
+
+.elegir {
+    font-size: 20px;
+}
+.color1 {
+    height:20px;
+    width:20px;
+    border-radius: 10px;
+    background-color: green;
+    margin:5px;
+}
+.color2 {
+    height:20px;
+    width:20px;
+    border-radius: 10px;
+    background-color: rgb(0, 140, 255);
+    margin:5px;
+}
+.color3 {
+    height:20px;
+    width:20px;
+    border-radius: 10px;
+    background-color: yellow;
+    margin:5px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+/*Estilo de start*/
+
+p {
+    text-decoration-style: solid;
+    font-size: 22px;
+    text-decoration-line: underline;
+}
+
+p:hover{
+    opacity: 0.75;
+}
+
+/*Contenedores y formato de los elementos principales del juego*/
+
+main {
+    display:flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.principal {
+    display: flex;
+    justify-content: space-around;
+}
+.cuadrado {
+    margin: 50px;
+    border: 1px solid blue;
+    height: 500px;
+    width: 500px;
+    position: relative;
+}
+.bloqueHorizontal {
+    width: 100px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+}
+.bloqueVertical {
+    width: 20px;
+    height: 100px;
+    position: absolute;
+    background-color: black;
+}
+.bola {
+    height:20px;
+    width:20px;
+    border-radius: 10px;
+    position:absolute;
+    background-color: rebeccapurple;
+}
+
